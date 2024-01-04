@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Raleway:wght@200;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    @apply bg-green-200;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    @apply bg-green-200;
+    background-attachment: fixed;
+}
+
+.sidebar {
+    background-color: rgb(14, 155, 14);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 22px 1px #444;
+    margin-bottom: 32px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    position: relative;
+}
+
+.login-link {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    top: -15px;
+    right: 18px;
+}
+
+.login-link>img{
+    height: 40px;
+}
+
+.title {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+}
+
+img.entry {
+    @apply w-full;
+    aspect-ratio: 1/1;
+}
+
+.main-button {
+    background-color: rgb(140, 255, 140);
+    padding: 12px 28px;
+    margin-block: 32px;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    transition: 300ms;
+    font-weight: 700;
+}
+
+.mechanics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.mechanics>ul>li {
+    padding: 18px;
+    border-radius: 26px;
+    margin-block: 12px;
+    background-color: rgb(236, 236, 161);
+    box-shadow: 0 0 10px -2px #888;
+}
+
+
+.main-button:hover {
+    background-color: rgb(0, 255, 0);
+    padding: 18px 40px;
+    color: #fff;
+}
+
+.success {
+    @apply bg-green-100 w-[350px] p-8 rounded-lg;
+    background-size: contain;
+}
+
+@media screen and (min-width: 800px){
+    main {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sidebar {
+        min-width: 400px;
+        rotate: 7deg;
+    }
+
+    .login-link {
+        top: 22px;
+        right: 32px;
+    }
+
+    .gallery {
+        @apply grid gap-4 grid-cols-3 auto-rows-auto;
+    }
+
+    .content {
+        align-items: start;
+        margin-left: 32px;
+        margin-top: 12px;
+    }
+}
