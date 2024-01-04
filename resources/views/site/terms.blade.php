@@ -79,7 +79,7 @@
 
     <h3 class="my-3 text-xl font-bold">8. Contact Information</h3>
     <div class="my-3 px-4">
-        If you have any questions about these Terms, please contact Mx. Kathleen T. Lebita @ 0917-142-5533.
+        If you have any questions about these Terms, please contact Ms. Kathleen T. Lebita @ 0917-142-5533.
 
         By participating in the Contest, you acknowledge that you have read and understood these Terms and agree to be bound by them.</div>
 </div>
