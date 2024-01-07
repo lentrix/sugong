@@ -9,6 +9,10 @@
         @foreach($entries as $entry)
             <div class="border border-gray-300">
                 <img src="{{asset('uploads/' . $entry->file)}}" alt="Entry of {{$entry->fname}}" class="entry">
+                <div class="bg-green-800 text-white p-4">
+                    {{$entry->lname}}, {{$entry->fname}} <br>
+                    <span class="italic text-sm">{{$entry->address}}</span>
+                </div>
             </div>
         @endforeach
     </div>
