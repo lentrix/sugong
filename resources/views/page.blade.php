@@ -16,7 +16,7 @@
             <h1 class="title text-yellow-400">Festival</h1>
             <h2 class="text-xl text-white subtitle mt-3">Logo Making Contest</h2>
 
-            <a href="{{url('/submit')}}" class="main-button">Submit Your Entry</a>
+            <a href="#" onclick="alert('The contest is already concluded.')" @disabled(true) class="main-button">Submit Your Entry</a>
         </div></a>
     <div class="content">
         @if(auth()->guest())
