@@ -26,9 +26,10 @@
 
 <div class="p-10 rounded-lg bg-white max-w-[800px]">
     <h1 class="text-4xl">Congratulations!!!</h1>
+    <h2 class="text-4xl" style="text-decoration:underline">Ms. Christine Joy Monterde</h2>
+    <p class="text-xl font-bold">of Poblacion Sur, Clarin, Bohol</p>
 
     <p class="mt-4 text-xl italic">
-        To Ms. Christine Joy Monterde of Poblacion Sur, Clarin, Bohol
         for creating the winning piece in the recently concluded
         "Sugong Festival" Logo making contest!!!
     </p>
